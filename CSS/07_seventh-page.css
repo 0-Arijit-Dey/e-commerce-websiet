@@ -1,0 +1,34 @@
+.seventh-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: var(--fifteenth-size) 0 70px;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  justify-content: center;
+  align-items: center;
+}
+.reviews h2 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  margin-bottom: var(--four-size);
+}
+.reviews a {
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  margin: var(--four-size);
+  line-height: 1.3rem;
+  margin-bottom: var(--four-size);
+}
+
+.reviews h6 {
+  font-size: var(--two-font-size);
+  color: var(--super-low-text-color);
+  font-weight: 400;
+}

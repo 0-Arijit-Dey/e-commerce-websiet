@@ -1,0 +1,71 @@
+.fifth-page {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.fifth-page-div {
+  width: 95%;
+  height: 690px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.fifth-page-div-1 {
+  height: 100%;
+  width: 570px;
+}
+/* .fifth-page-div-1 a {
+} */
+.fifth-page-div-1 a img {
+  width: 490px;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  top: -50px;
+}
+.pink-box {
+  background-color: var(--first-page-background-color);
+  width: 55%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.fifth-page-div-2 {
+  width: 570px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+}
+.fifth-page-div-2-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.fifth-page-div-2-box h6 {
+  font-size: var(--two-font-size);
+  font-weight: 400;
+  color: var(--super-low-text-color);
+  margin-bottom: var(--four-size);
+}
+.fifth-page-div-2-box h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: var(--seventh-size);
+}
+.fifth-page-div-2-box p {
+  font-size: var(--two-font-size);
+  color: var(--super-low-text-color);
+  font-weight: 400;
+  margin-bottom: var(--therteenth-size);
+}
+.fifth-page-div-2-box a {
+  padding: var(--two-size) var(--ningth-size);
+  background-color: black;
+  text-decoration: none;
+}
+.fifth-page-div-2-box a span {
+  color: white;
+  font-size: var(--three-font-size);
+}

@@ -1,0 +1,16 @@
+.tenth-page{
+      width: 100%;
+      width: 95%;
+      margin: 0 auto var(--therteenth-size);
+}
+.tenth-page footer{
+      background-color: black;
+      display: flex;
+      justify-content: center;
+}
+.tenth-page footer p{
+      color: white;
+      font-size: var(--two-font-size);
+      font-weight: 400;
+      padding: var(--fifteenth-size) 0;
+}

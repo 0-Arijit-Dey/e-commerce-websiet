@@ -1,0 +1,58 @@
+.ningth-page {
+  background-color: var(--first-page-background-color);
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  width: 95%;
+  margin: 0 auto;
+}
+.subscribe-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe-box h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: var(--four-size);
+}
+.subscribe-box p {
+  font-size: var(--two-font-size);
+  font-weight: 400;
+  color: var(--super-low-text-color);
+  margin-bottom: var(--fifteenth-size);
+}
+.subscribe-box ul {
+  display: flex;
+  gap: var(--eleventh-size);
+  margin-bottom: var(--therteenth-size);
+}
+.subscribe-box ul li {
+  font-size: var(--two-font-size);
+  font-weight: 400;
+}
+.subscribe-box ul li a {
+  text-decoration: none;
+  color: var(--super-low-text-color);
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--two-size);
+}
+
+.social-media a {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--three-size);
+}
+.social-media a img {
+  width: 15px;
+  height: 15px;
+}

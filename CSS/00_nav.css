@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --first-page-background-color: #faedeb;
+  --super-low-text-color: rgba(0, 0, 0, 0.6);
+  --low-text-color: #666666;
+  --one-font-size: 0.7rem;
+  --two-font-size: 0.8rem;
+  --three-font-size: 0.9rem;
+  --one-size: 5px;
+  --two-size: 8px;
+  --three-size: 10px;
+  --four-size: 12px;
+  --fifth-size: 14px;
+  --sixth-size: 16px;
+  --seventh-size: 18px;
+  --eigth-size: 20px;
+  --ningth-size: 24px;
+  --tenth-size: 28px;
+  --eleventh-size: 30px;
+  --twelveth-size: 34px;
+  --therteenth-size: 40px;
+  --fifteenth-size: 50px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 var(--therteenth-size);
+}
+
+.heading-div-1 {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: var(--two-size);
+  align-items: center;
+}
+.heading-div-1 ul a {
+  font-size: var(--two-font-size);
+  color: black;
+  text-decoration: none;
+  padding-right: var(--four-size);
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.heading-div-1 ul a:hover {
+  border-bottom: 1px solid;
+}
+.heading-div-2 {
+  display: flex;
+  margin-right: var(--ningth-size);
+  padding-right: var(--ningth-size);
+}
+.heading-div-3 {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.heading-div-3 .search {
+  padding: var(--three-size) var(--four-size);
+}
+
+.heading-div-3 .search a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.heading-div-3 .search a img {
+  width: var(--seventh-size);
+}
+
+.bucket a {
+  display: flex;
+  text-decoration: none;
+}
+.bucket-1 {
+  color: black;
+  font-size: var(--three-font-size);
+  font-weight: 600;
+  padding: var(--four-size) var(--four-size);
+}
+.bucket-2 {
+  padding: var(--four-size) var(--four-size);
+}
+.bucket-2 img {
+  height: var(--eigth-size);
+}
+.bucket-2::after {
+  content: "0";
+  font-size: var(--two-font-size);
+  background-color: black;
+  color: white;
+  position: relative;
+  padding: 1px var(--one-size);
+  border-radius: 50%;
+  top: -15px;
+  right: var(--two-size);
+  text-align: center;
+}
+
+.login a {
+  text-decoration: none;
+  font-size: var(--two-font-size);
+  color: black;
+  padding: var(--one-size);
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
